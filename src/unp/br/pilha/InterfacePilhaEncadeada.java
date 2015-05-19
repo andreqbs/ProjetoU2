@@ -10,9 +10,9 @@ package unp.br.pilha;
  * @author andreqbs
  */
 public interface InterfacePilhaEncadeada {
-    void criarPilha();
-    boolean eVazia (); //verificar se está vazia a pilha
-    int tamanho(); //retorna o número de itens da pilha 
+    void criarPilha(); //cria uma pilha
+    boolean eVazia (); //verifica se está vazia a pilha
+    int tamanho(); //retorna o número de elementos da pilha 
     void limpar(); //esvaziar pilha
     NoEncadeado push(int valor); //insere um valor no topo da pilha
     NoEncadeado pop(); //retira o valor no topo da pilha
