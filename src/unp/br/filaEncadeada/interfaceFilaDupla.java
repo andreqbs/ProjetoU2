@@ -10,7 +10,7 @@ package unp.br.filaEncadeada;
  * @author andreqbs
  */
 public interface interfaceFilaDupla {
-     void criarFila(int tamanho); //cria fila com tamanho    
+    void criarFila(); //cria fila    
     boolean eCheia();  //verifica se a fila estar cheia     
     boolean eVazia();  //verifica se a fila possui elementos     
     int tamanho();  //retorna o número de itens da fila      
