@@ -13,7 +13,7 @@ public interface interfaceArvoreBinaria {
 
     NoArvore raiz(); //retorna a raiz da árvore
 
-    NoArvore buscar(int valor); //retorna um nó da árvore, caso ele se encontre nela
+    NoArvore buscarItr(int valor); //retorna um nó da árvore, caso ele se encontre nela (while)
 
     void inserirItr(int valor); //adiciona um novo nó na árvore de forma iterativa (while)
     
